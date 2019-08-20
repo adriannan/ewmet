@@ -9,7 +9,7 @@ body {
     font-family: $lato;
     min-height: 100%;
     position: relative;
-
+    overflow: hidden;
 }
 
 *:focus {
@@ -17,8 +17,7 @@ body {
 }
 
 .container {
-    width: 90%;
-    // width: 100%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 75px;
     display: flex;
@@ -31,6 +30,7 @@ body {
 
 .hero {
     @extend .container;
+    max-width: 100vw;
     margin-top: 0px;
     // margin-top: 75px;
     justify-content: center;
@@ -41,8 +41,18 @@ body {
 
 .about {
     @extend .container;
+    max-width: 1200px;
+
     // flex-wrap: wrap;
     // justify-content: center;
     // width: 80%;
 
+}
+
+.offer {
+    @extend .container;
+}
+
+.contact {
+    @extend .container;
 }

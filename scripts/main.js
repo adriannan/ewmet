@@ -74,3 +74,21 @@ dots.forEach((dot) => {
 let slideInterval = setInterval(changeSlide, time);
 
 window.addEventListener('keydown', keyChangeSlide)
+
+
+// hamburger menu
+
+const lines = document.querySelectorAll('.header__hamburger');
+const hamburger = document.querySelector('.header__hamburger');
+const nav = document.querySelector('.header__nav');
+lines.forEach(line => {
+    line.addEventListener('click', (event) => {
+        line.classList.toggle("hamburger__line--active");
+
+    });
+
+});
+hamburger.addEventListener('click', (event) => {
+    nav.classList.toggle("header__nav--active");
+    nav.classList.toggle("header__nav--disab");
+})

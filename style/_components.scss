@@ -531,8 +531,30 @@
 }
 
 @media screen and (max-width: 768px) {
-    .header__nav {
+    .header__nav--disab {
         display: none;
+    }
+
+    .header__nav--active {
+        display: flex;
+        flex-direction: column;
+        // justify-content: flex-end;
+        // align-items: flex-end;
+        align-items: center;
+        position: absolute;
+        top: 5em;
+        right: 0;
+        width: 100%;
+        padding: 0;
+
+    }
+
+    .header__nav--active li {
+        padding: 1em 0;
+        // margin: 1px;
+        width: 100%;
+        background-color: #f0f1f3;
+        text-align: center;
     }
 
     .hero__slider {
@@ -557,6 +579,7 @@
 
     .gallery {
         margin-top: 5em;
+
 
     }
 
@@ -595,7 +618,8 @@
         margin: 3px 0px;
     }
 
-    .offer__img--5 {
+    .offer__img--5,
+    .offer__img--4 {
         display: none;
     }
 

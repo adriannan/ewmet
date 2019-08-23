@@ -20,6 +20,7 @@ header {
     text-transform: capitalize;
     text-decoration: none;
     padding-left: 4vw;
+    // font-size: 1em;
 }
 
 .header__logo span {
@@ -50,4 +51,22 @@ header {
     color: $cl-blu;
     color: $c-gre;
     // background-color: $cl-whi;
+}
+
+@media screen and (max-width: 960px) {
+    header {
+
+        min-height: 65px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .header__logo span {
+        padding-left: 1em;
+    }
+
+
 }

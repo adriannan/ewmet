@@ -7,25 +7,19 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    // background-color: $c-gra;
-    background-color: $cl-bla;
     background-color: $cl-whi;
     filter: opacity(0.9);
 }
 
 .header__logo {
-    color: $cl-lblu;
-    color: $cl-gra;
     color: $c-gre;
     text-transform: capitalize;
     text-decoration: none;
     padding-left: 4vw;
-    // font-size: 1em;
 }
 
 .header__logo span {
     color: $cl-gra;
-    // color: $c-gre;
     font-style: italic;
     font-size: 0.6em;
     padding-left: 1vw;
@@ -40,17 +34,13 @@ header {
 
 .nav__item {
     text-decoration: none;
-    // text-transform: capitalize;
-    color: $cl-lblu;
     color: $cl-gra;
-    // color: $c-min;
     padding-left: 1em;
 }
 
 .nav__item:hover {
     color: $cl-blu;
     color: $c-gre;
-    // background-color: $cl-whi;
 }
 
 .header__hamburger {
@@ -67,24 +57,17 @@ header {
 }
 
 @media screen and (max-width: 768px) {
-    header {
-        // justify-content: space-around;
-    }
-
     .header__logo span {
-        // padding-left: 1em;
         display: none;
     }
 
     .header__hamburger {
         display: flex;
-        // position: relative;
         position: absolute;
         right: 1em;
         height: 1.6em;
         width: 2em;
         margin: 0 auto;
-        // border: 1px solid black;
         cursor: pointer;
 
     }

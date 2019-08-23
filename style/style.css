@@ -306,13 +306,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1f2122;
   background-color: #f0f1f3;
   filter: opacity(0.9); }
 
 .header__logo {
-  color: #d6dde8;
-  color: #575c63;
   color: #8ec7b7;
   text-transform: capitalize;
   text-decoration: none;
@@ -332,7 +329,6 @@ header {
 
 .nav__item {
   text-decoration: none;
-  color: #d6dde8;
   color: #575c63;
   padding-left: 1em; }
 
@@ -485,8 +481,6 @@ body {
   width: 110%;
   min-width: 980px;
   height: auto;
-  /* opacity: .9; */
-  /* filter: brightness(90%) opacity(.9); */
   filter: grayscale(0.3) opacity(0.95);
   position: absolute;
   top: 50%;

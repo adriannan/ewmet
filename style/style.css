@@ -353,7 +353,10 @@ header {
     height: 1.6em;
     width: 2em;
     margin: 0 auto;
-    cursor: pointer; }
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    background-color: inherit; }
 
   .hamburger__line {
     height: 2px;

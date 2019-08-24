@@ -547,11 +547,14 @@
 
     }
 
-    .about__title,
-    .offer__title,
-    .contact__title,
     .gallery__title {
         margin: 1em 0em;
+    }
+
+    .about__title,
+    .offer__title,
+    .contact__title {
+        margin: 3em 0em;
     }
 
     .offer__content {

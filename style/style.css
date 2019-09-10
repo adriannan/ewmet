@@ -730,8 +730,7 @@ body {
   width: 100%;
   height: 2.8em;
   justify-content: center;
-  position: absolute;
-  bottom: 0; }
+  position: absolute; }
 
 .footer {
   background-color: white; }

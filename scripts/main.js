@@ -92,3 +92,54 @@ hamburger.addEventListener('click', (event) => {
     nav.classList.toggle("header__nav--active");
     nav.classList.toggle("header__nav--disab");
 })
+
+
+
+
+// SCROLL ANIMATE 
+
+
+ScrollReveal().reveal('.about__title', {
+    origin: 'bottom',
+    distance: '200px',
+});
+ScrollReveal().reveal('.about__content', {
+    delay: 300,
+    origin: 'bottom',
+    distance: '200px',
+});
+
+ScrollReveal().reveal('.offer__title', {
+    origin: 'bottom',
+    distance: '200px',
+});
+
+
+ScrollReveal().reveal('.offer__capt', {
+    reset: true,
+    delay: 300,
+    origin: 'left',
+    distance: '200px',
+});
+ScrollReveal().reveal('.offer__grid', {
+    reset: true,
+    delay: 300,
+    origin: 'right',
+    distance: '200px',
+});
+
+ScrollReveal().reveal('.contact__title', {
+    origin: 'bottom',
+    distance: '200px',
+});
+
+ScrollReveal().reveal('.contact__capt', {
+    delay: 300,
+    origin: 'bottom',
+    distance: '200px',
+});
+ScrollReveal().reveal('.contact__map', {
+    delay: 300,
+    origin: 'bottom',
+    distance: '200px',
+});

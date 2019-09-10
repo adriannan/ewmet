@@ -19,6 +19,8 @@ Created with:
 ### What's more
 - RWD
 - NPM
+- Google Maps API
 
 ### Used..
 - Lightbox Gallery by Lokesh Dhakar
+- ScrollReveal by Julian Lloyd

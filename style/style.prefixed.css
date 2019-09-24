@@ -436,7 +436,7 @@ header {
   .hamburger__line:nth-child(2) {
     left: 0px;
     opacity: 1;
-    top: .7em;
+    top: 0.7em;
   }
 
   .hamburger__line:nth-child(3) {
@@ -448,7 +448,7 @@ header {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    top: .7em;
+    top: 0.7em;
   }
 
   .hamburger__line--active .hamburger__line:nth-child(2) {
@@ -459,7 +459,7 @@ header {
     -webkit-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    top: .7em;
+    top: 0.7em;
   }
 }
 
@@ -560,7 +560,7 @@ body {
   text-transform: uppercase;
   background-color: #afc0d7;
   border: none;
-  padding: .8em 2em;
+  padding: 0.8em 2em;
   -webkit-transform: translateY(1.3em);
   -ms-transform: translateY(1.3em);
   transform: translateY(1.3em);
@@ -572,10 +572,10 @@ body {
 .hero__button::after {
   position: absolute;
   content: "";
-  height: .4em;
-  width: .4em;
-  margin: .3em 0 0 .6em;
-  padding: .1em;
+  height: 0.4em;
+  width: 0.4em;
+  margin: 0.3em 0 0 0.6em;
+  padding: 0.1em;
   border: solid #575c63;
   border-width: 0 1px 1px 0;
   -webkit-transform: rotate(-45deg);
@@ -601,7 +601,7 @@ body {
   -webkit-transition: 0.2s ease-out;
   -o-transition: 0.2s ease-out;
   transition: 0.2s ease-out;
-  padding: .8em 3em .8em 2.2em;
+  padding: 0.8em 3em 0.8em 2.2em;
 }
 
 .hero__slider {
@@ -727,7 +727,7 @@ body {
 .offer__title::after,
 .contact__title::after,
 .gallery__title::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   width: 10%;
@@ -747,6 +747,7 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .offer__list {
@@ -790,9 +791,9 @@ body {
   -o-object-position: center top;
   object-position: center top;
   z-index: -1;
-  -webkit-transition: .2s linear;
-  -o-transition: .2s linear;
-  transition: .2s linear;
+  -webkit-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -863,7 +864,7 @@ body {
 }
 
 .offer__img::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
@@ -871,16 +872,16 @@ body {
   height: 100%;
   background-color: #8ec7b7;
   opacity: 0;
-  -webkit-transition: .2s linear;
-  -o-transition: .2s linear;
-  transition: .2s linear;
+  -webkit-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
 }
 
 .offer__img:hover:before {
   opacity: 0.2;
-  -webkit-transition: .2s linear;
-  -o-transition: .2s linear;
-  transition: .2s linear;
+  -webkit-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
 }
 
 .contact__content {
@@ -969,8 +970,8 @@ body {
 
 .contact__details dt {
   text-transform: uppercase;
-  font-size: .6em;
-  letter-spacing: .4em;
+  font-size: 0.6em;
+  letter-spacing: 0.4em;
 }
 
 .contact__details dd {
@@ -989,7 +990,7 @@ body {
 }
 
 .contact__details dd:not(:nth-child(6)):after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   width: 1px;
@@ -997,7 +998,7 @@ body {
   right: -1em;
   top: 0;
   background: white;
-  opacity: .4;
+  opacity: 0.4;
 }
 
 .contact__map {
@@ -1026,7 +1027,7 @@ body {
 
 .footer__copyright {
   color: #8ec7b7;
-  font-size: .8em;
+  font-size: 0.8em;
 }
 
 .gallery__photo-box {
@@ -1040,9 +1041,9 @@ body {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  -webkit-transition: .2s linear;
-  -o-transition: .2s linear;
-  transition: .2s linear;
+  -webkit-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
 }
 
 .gallery__photo {
@@ -1052,9 +1053,9 @@ body {
   object-fit: cover;
   -o-object-position: center;
   object-position: center;
-  -webkit-transition: .2s linear;
-  -o-transition: .2s linear;
-  transition: .2s linear;
+  -webkit-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
 }
 
 @media screen and (max-width: 960px) {
